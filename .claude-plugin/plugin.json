@@ -1,0 +1,203 @@
+{
+  "name": "Developer Roadmap Navigator",
+  "version": "1.0.0",
+  "description": "Navigate and master all 69 developer roadmaps from roadmap.sh with 7 specialized agents, interactive learning paths, progress tracking, and resources. Your comprehensive guide to modern development careers and skills.",
+  "author": "Claude Code Plugin",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-java",
+  "license": "MIT",
+  "keywords": [
+    "developer-roadmap",
+    "learning-path",
+    "career-guidance",
+    "skill-development",
+    "roadmap.sh",
+    "education",
+    "mentoring",
+    "professional-development"
+  ],
+  "agents": [
+    {
+      "id": "01-web-development-specialist",
+      "name": "Web Development Specialist",
+      "description": "Navigate Frontend, React, Vue, Angular, TypeScript, and modern web technologies",
+      "path": "./agents/01-web-development-specialist.md",
+      "skills": ["web-development"]
+    },
+    {
+      "id": "02-backend-systems-architect",
+      "name": "Backend & Systems Architect",
+      "description": "Master backend development, databases, APIs, and system architecture",
+      "path": "./agents/02-backend-systems-architect.md",
+      "skills": ["backend-systems"]
+    },
+    {
+      "id": "03-mobile-data-expert",
+      "name": "Mobile & Data Expert",
+      "description": "Build native and cross-platform mobile apps, master data science and AI",
+      "path": "./agents/03-mobile-data-expert.md",
+      "skills": ["mobile-data"]
+    },
+    {
+      "id": "04-devops-cloud-engineer",
+      "name": "DevOps & Cloud Engineer",
+      "description": "Master Docker, Kubernetes, Terraform, AWS, and cloud infrastructure",
+      "path": "./agents/04-devops-cloud-engineer.md",
+      "skills": ["devops-cloud"]
+    },
+    {
+      "id": "05-architecture-security-specialist",
+      "name": "Architecture & Security Specialist",
+      "description": "Design scalable systems, master cybersecurity, and explore blockchain",
+      "path": "./agents/05-architecture-security-specialist.md",
+      "skills": ["architecture-security"]
+    },
+    {
+      "id": "06-leadership-specializations",
+      "name": "Leadership & Specializations",
+      "description": "Transition to product, management, technical writing, DevRel, QA, or UX design",
+      "path": "./agents/06-leadership-specializations.md",
+      "skills": ["specializations"]
+    },
+    {
+      "id": "07-universal-navigator",
+      "name": "Universal Navigator",
+      "description": "Navigate all 69 roadmaps, compare technologies, find your path",
+      "path": "./agents/07-universal-navigator.md",
+      "skills": ["universal-reference"]
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn",
+      "description": "Get a personalized learning path based on your goals and experience level",
+      "path": "./commands/learn.md",
+      "icon": "🎓"
+    },
+    {
+      "name": "explore",
+      "description": "Deep-dive into any of the 69 developer roadmaps with detailed breakdowns",
+      "path": "./commands/explore.md",
+      "icon": "🔍"
+    },
+    {
+      "name": "progress",
+      "description": "Track your learning journey with visual progress, analytics, and recommendations",
+      "path": "./commands/progress.md",
+      "icon": "📊"
+    },
+    {
+      "name": "resources",
+      "description": "Find curated resources (courses, tutorials, books, communities) for any skill",
+      "path": "./commands/resources.md",
+      "icon": "📚"
+    }
+  ],
+  "skills": [
+    {
+      "id": "web-development",
+      "name": "Web Development",
+      "description": "Frontend frameworks, web technologies, and modern web development",
+      "path": "./skills/web-dev/SKILL.md"
+    },
+    {
+      "id": "backend-systems",
+      "name": "Backend & Systems",
+      "description": "Backend frameworks, databases, APIs, and system architecture",
+      "path": "./skills/backend-systems/SKILL.md"
+    },
+    {
+      "id": "mobile-data",
+      "name": "Mobile & Data",
+      "description": "Mobile development and data science/AI technologies",
+      "path": "./skills/mobile-data/SKILL.md"
+    },
+    {
+      "id": "devops-cloud",
+      "name": "DevOps & Cloud",
+      "description": "Container orchestration, infrastructure automation, and cloud platforms",
+      "path": "./skills/devops-cloud/SKILL.md"
+    },
+    {
+      "id": "architecture-security",
+      "name": "Architecture & Security",
+      "description": "System design, software architecture, cybersecurity, and blockchain",
+      "path": "./skills/architecture-security/SKILL.md"
+    },
+    {
+      "id": "specializations",
+      "name": "Leadership & Specializations",
+      "description": "Product management, engineering leadership, and specialized roles",
+      "path": "./skills/specializations/SKILL.md"
+    },
+    {
+      "id": "universal-reference",
+      "name": "Universal Reference",
+      "description": "Universal guide to all 69 roadmaps with search and comparison tools",
+      "path": "./skills/universal-reference/SKILL.md"
+    }
+  ],
+  "hooks": {
+    "config": "./hooks/hooks.json"
+  },
+  "features": [
+    {
+      "name": "69 Developer Roadmaps",
+      "description": "Access to all roadmaps from roadmap.sh covering every development path"
+    },
+    {
+      "name": "7 Specialized Agents",
+      "description": "Expert agents covering web, backend, mobile, data, devOps, architecture, and leadership"
+    },
+    {
+      "name": "Interactive Learning Paths",
+      "description": "Personalized recommendations based on experience level and goals"
+    },
+    {
+      "name": "Progress Tracking",
+      "description": "Track your learning with visual progress, analytics, and streak counting"
+    },
+    {
+      "name": "Resource Curation",
+      "description": "Find best tutorials, courses, books, communities, and projects"
+    },
+    {
+      "name": "Technology Comparison",
+      "description": "Compare frameworks, languages, cloud platforms side-by-side"
+    },
+    {
+      "name": "Career Guidance",
+      "description": "Navigate career transitions and specializations with confidence"
+    },
+    {
+      "name": "Job Market Insights",
+      "description": "Real-time demand, salary data, and hiring trends by role"
+    }
+  ],
+  "roadmapCategories": {
+    "web": 9,
+    "backend": 12,
+    "mobile": 8,
+    "data": 8,
+    "devops": 9,
+    "architecture": 7,
+    "leadership": 8,
+    "meta-frameworks": 2
+  },
+  "totalRoadmaps": 69,
+  "totalSkills": 7,
+  "totalCommands": 4,
+  "totalAgents": 7,
+  "metadata": {
+    "created": "2025-01-18",
+    "updated": "2025-01-18",
+    "maintainer": "Claude Code",
+    "documentation": "./README.md",
+    "changelog": "./CHANGELOG.md"
+  },
+  "configuration": {
+    "autoLoadAgents": true,
+    "enableProgressTracking": true,
+    "enableAnalytics": true,
+    "enableCommunityFeatures": true
+  }
+}
