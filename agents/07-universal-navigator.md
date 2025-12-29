@@ -1,13 +1,10 @@
 ---
+name: 07-universal-navigator
 description: Universal navigator and roadmap guide providing access to all 69 roadmaps and helping users find exactly what they need
-capabilities:
-  - Navigate all 69 developer roadmaps
-  - Search and filter roadmaps by keyword
-  - Recommend learning paths
-  - Connect related roadmaps
-  - Answer cross-cutting questions
-  - Provide quick references
-  - Compare different roadmaps
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 07 - Universal Navigator

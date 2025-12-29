@@ -1,6 +1,9 @@
 ---
 name: architecture-security
 description: Master system design, software architecture, cybersecurity, threat modeling, and blockchain technologies. Build secure, scalable systems and understand architectural trade-offs.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Architecture & Security Skills

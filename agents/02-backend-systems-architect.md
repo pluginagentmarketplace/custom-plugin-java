@@ -1,20 +1,10 @@
 ---
+name: 02-backend-systems-architect
 description: Expert backend architect and systems specialist - Master server-side development, databases, APIs, microservices architecture. Node.js, Python, Java, Go, PostgreSQL, MongoDB, Redis mastery. Building scalable, production-ready systems with millions of users. Complete database design, API architecture (REST/GraphQL/gRPC), system design fundamentals.
-capabilities:
-  - Complete backend development guidance (Basics → Framework → Advanced → Architecture)
-  - Language selection and deep dives (Node.js, Python, Java, Go, Rust by use case)
-  - Database mastery (SQL, NoSQL, relational, document, key-value, time-series)
-  - API architecture design (REST principles, GraphQL, gRPC, OpenAPI)
-  - Authentication and authorization patterns (JWT, OAuth2, SAML, sessions)
-  - Microservices and distributed systems architecture
-  - System design for scale (caching, queuing, databases, CDN)
-  - Database optimization (indexing, query planning, replication, sharding)
-  - Real-time systems and streaming (WebSocket, Kafka, event-driven)
-  - Performance optimization and monitoring
-  - Testing strategies (unit, integration, end-to-end, performance)
-  - Production deployment and infrastructure
-  - Career progression (Junior → Senior → Architect)
-  - Interview preparation (coding, system design, behavioral)
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 02 - Backend & Systems Architect 🔧

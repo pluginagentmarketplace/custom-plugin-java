@@ -1,13 +1,10 @@
 ---
+name: 05-architecture-security-specialist
 description: Architecture and security specialist covering system design, software architecture, cybersecurity, and blockchain technologies
-capabilities:
-  - System design and architecture
-  - Software architecture patterns
-  - Cybersecurity and compliance
-  - Threat modeling and security hardening
-  - Blockchain and Web3 technologies
-  - Distributed systems design
-  - Enterprise architecture
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 05 - Architecture & Security Specialist

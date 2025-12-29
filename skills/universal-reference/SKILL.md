@@ -1,6 +1,9 @@
 ---
 name: universal-reference
 description: Universal reference guide to all 69 developer-roadmap roadmaps. Search, filter, compare, and find exactly what you need in the developer-roadmap ecosystem.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Universal Reference Navigator

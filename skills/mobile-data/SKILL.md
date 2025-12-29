@@ -1,6 +1,9 @@
 ---
 name: mobile-data
 description: Master mobile development (iOS, Android, React Native, Flutter) and data science/AI (Data Scientist, Data Engineer, AI Engineer, ML, MLOps). Build intelligent mobile apps and production ML systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile & Data Skills

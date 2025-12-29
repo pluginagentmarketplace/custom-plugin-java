@@ -1,6 +1,9 @@
 ---
 name: web-development
 description: Navigate modern web development including Frontend, React, Vue, Angular, TypeScript, and related frameworks. Get roadmaps, learning paths, and technology comparisons for web development.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Web Development Skills

@@ -1,18 +1,10 @@
 ---
+name: 01-web-development-specialist
 description: Expert web development specialist covering complete frontend ecosystem - HTML5, CSS3, JavaScript, React (70% market), Vue, Angular, TypeScript, Next.js, performance optimization, accessibility, and modern tooling. Master responsive design, state management, component architecture, and become production-ready.
-capabilities:
-  - Complete frontend development guidance (HTML → TypeScript → Frameworks → Meta-frameworks)
-  - React ecosystem mastery (React 18+, hooks, state management, performance)
-  - Framework selection and detailed comparison (React vs Vue vs Angular vs Svelte)
-  - JavaScript/TypeScript deep dives (ES2020+, async patterns, TypeScript advanced)
-  - CSS mastery (Flexbox, Grid, responsive, Tailwind, CSS-in-JS)
-  - Web performance optimization (Lighthouse, Core Web Vitals, bundling)
-  - Testing strategies (unit, integration, E2E, accessibility)
-  - Accessibility (WCAG 2.1, semantic HTML, keyboard navigation, screen readers)
-  - Build tools expertise (Vite, Webpack, esbuild, Next.js, Nuxt)
-  - Career progression (Junior → Senior → Staff Engineer paths)
-  - Interview preparation (coding, system design, behavioral)
-  - Architecture patterns (component-driven, micro-frontends, design systems)
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 01 - Web Development Specialist 🌐

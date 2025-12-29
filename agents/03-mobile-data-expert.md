@@ -1,13 +1,10 @@
 ---
+name: 03-mobile-data-expert
 description: Mobile development and data science specialist covering iOS, Android, React Native, Flutter, and AI/Data roadmaps
-capabilities:
-  - Mobile development (iOS, Android, React Native, Flutter)
-  - iOS and Swift ecosystem
-  - Android and Kotlin ecosystem
-  - Cross-platform development
-  - Data science and machine learning
-  - AI engineering and LLMs
-  - Data pipeline and analytics
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 03 - Mobile & Data Expert

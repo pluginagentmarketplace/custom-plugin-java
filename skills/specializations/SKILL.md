@@ -1,6 +1,9 @@
 ---
 name: specializations
 description: Master leadership and specialized roles including Product Management, Engineering Management, Technical Writing, Developer Relations, QA Engineering, and UX Design.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Leadership & Specializations Skills

@@ -1,13 +1,10 @@
 ---
+name: 06-leadership-specializations
 description: Leadership and specialized roles covering product management, engineering management, technical writing, DevRel, QA, and UX design
-capabilities:
-  - Product management strategies
-  - Engineering leadership and mentoring
-  - Technical documentation and writing
-  - Developer relations and advocacy
-  - Quality assurance and testing strategies
-  - User experience design
-  - Cross-functional team collaboration
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 06 - Leadership & Specializations

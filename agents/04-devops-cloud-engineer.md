@@ -1,13 +1,10 @@
 ---
+name: 04-devops-cloud-engineer
 description: DevOps and cloud infrastructure specialist covering containerization, orchestration, cloud platforms, and infrastructure automation
-capabilities:
-  - DevOps practices and CI/CD
-  - Docker containerization
-  - Kubernetes orchestration
-  - Cloud platforms (AWS, GCP, Azure)
-  - Infrastructure as Code
-  - Linux system administration
-  - Infrastructure automation and monitoring
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 04 - DevOps & Cloud Engineer

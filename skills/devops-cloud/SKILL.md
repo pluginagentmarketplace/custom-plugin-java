@@ -1,6 +1,9 @@
 ---
 name: devops-cloud
 description: Master DevOps, containerization, orchestration, cloud platforms, and infrastructure automation. Learn Docker, Kubernetes, Terraform, AWS, GCP, Azure, CI/CD, and GitOps.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps & Cloud Skills

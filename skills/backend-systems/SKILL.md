@@ -1,6 +1,9 @@
 ---
 name: backend-systems
 description: Master backend development with databases, APIs, microservices, and system design. Covers Node.js, Python, Java, Go, PostgreSQL, MongoDB, and architectural patterns for building scalable systems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-web-development-specialist
+bond_type: PRIMARY_BOND
 ---
 
 # Backend & Systems Skills
