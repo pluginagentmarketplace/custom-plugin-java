@@ -1,75 +1,28 @@
 ---
 name: java-spring-boot
-description: Master Spring Boot - REST APIs, data access, and production-ready applications
+description: Build applications with Spring Boot
 sasmp_version: "1.3.0"
-bonded_agent: java-spring
+bonded_agent: 03-java-spring
 bond_type: PRIMARY_BOND
 ---
 
-# Java Spring Boot Skill
+# Java Spring Boot
 
-## REST Controller
+Build applications with Spring Boot
 
-```java
-@RestController
-@RequestMapping("/api/users")
-public class UserController {
+## Overview
 
-    private final UserService userService;
+Comprehensive guide to build applications with spring boot.
 
-    public UserController(UserService userService) {
-        this.userService = userService;
-    }
+## Topics Covered
 
-    @GetMapping
-    public List<UserDTO> getAllUsers() {
-        return userService.findAll();
-    }
+- Auto-configuration
+- REST APIs
+- Data access
+- Security
 
-    @GetMapping("/{id}")
-    public UserDTO getUser(@PathVariable Long id) {
-        return userService.findById(id);
-    }
+## Usage
 
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public UserDTO createUser(@Valid @RequestBody CreateUserDTO dto) {
-        return userService.create(dto);
-    }
-
-    @PutMapping("/{id}")
-    public UserDTO updateUser(@PathVariable Long id, @Valid @RequestBody UpdateUserDTO dto) {
-        return userService.update(id, dto);
-    }
-
-    @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteUser(@PathVariable Long id) {
-        userService.delete(id);
-    }
-}
 ```
-
-## Application Properties
-
-```yaml
-# application.yml
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/mydb
-    username: ${DB_USER}
-    password: ${DB_PASSWORD}
-  jpa:
-    hibernate:
-      ddl-auto: validate
-    show-sql: false
+Skill("java-spring-boot")
 ```
-
-## Assets
-
-- `controllers/` - Controller examples
-- `config/` - Configuration examples
-
-## References
-
-- `SPRING_BOOT_GUIDE.md` - Complete reference
