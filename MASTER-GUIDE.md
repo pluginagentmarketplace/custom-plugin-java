@@ -753,7 +753,6 @@ STAR Method: Situation → Task → Action → Result
 ## 🌟 Why This Plugin Is Different
 
 ### 1. **Comprehensive Coverage**
-- All 69 roadmaps from developer-roadmap.sh
 - No gaps or missing paths
 - Every major tech is covered
 
