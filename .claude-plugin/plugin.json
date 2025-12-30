@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "name": "java-development-assistant",
-  "version": "2.1.0",
-  "description": "Comprehensive Java development plugin with 8 specialized agents and 12 Golden Format skills for core Java, Spring, testing, DevOps, and enterprise development",
+  "version": "3.0.0",
+  "description": "Production-grade Java development plugin with 8 specialized agents, 12 SASMP-compliant skills, and 4 commands for core Java, Spring, testing, DevOps, and enterprise development",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"

@@ -6,10 +6,11 @@
 <br/>
 
 <!-- Badge Row 1: Status Badges -->
-[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-java/releases)
+[![Version](https://img.shields.io/badge/Version-3.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-java/releases)
 [![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
 [![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
+[![EQHM](https://img.shields.io/badge/EQHM-Enabled-green?style=for-the-badge)](#)
 
 <!-- Badge Row 2: Content Badges -->
 [![Agents](https://img.shields.io/badge/Agents-8-orange?style=flat-square&logo=robot)](#-agents)
@@ -95,12 +96,14 @@ cd custom-plugin-java
 After restart, you should see these agents:
 
 ```
-java-development-assistant:07-java-testing
-java-development-assistant:03-java-collections
+java-development-assistant:01-java-fundamentals
+java-development-assistant:02-java-advanced
+java-development-assistant:03-java-spring
+java-development-assistant:04-java-testing
 java-development-assistant:05-java-build-tools
-java-development-assistant:02-java-oop
-java-development-assistant:08-java-jvm
-... and 3 more
+java-development-assistant:06-java-persistence
+java-development-assistant:07-java-microservices
+java-development-assistant:08-java-devops
 ```
 
 ---
@@ -109,47 +112,49 @@ java-development-assistant:08-java-jvm
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **8 Agents** | Specialized AI agents for java tasks |
-| 🛠️ **12 Skills** | Reusable capabilities with Golden Format |
-| ⌨️ **4 Commands** | Quick slash commands |
+| 🤖 **8 Agents** | Production-grade AI agents with ReAct pattern |
+| 🛠️ **12 Skills** | SASMP-compliant skills with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands with validation |
 | 🔄 **SASMP v1.3.0** | Full protocol compliance |
+| ✅ **EQHM** | Error handling, quality, and monitoring enabled |
 
 ---
 
 ## 🤖 Agents
 
-### 8 Specialized Agents
+### 8 Production-Grade Agents
 
-| # | Agent | Purpose |
-|---|-------|---------|
-| 1 | **07-java-testing** | Master Java testing - JUnit 5, Mockito, TestContainers, inte |
-| 2 | **03-java-collections** | Master Java Collections Framework - List, Set, Map, Queue, a |
-| 3 | **05-java-build-tools** | Master Java build tools - Maven, Gradle, dependency manageme |
-| 4 | **02-java-oop** | Master Java Object-Oriented Programming - classes, inheritan |
-| 5 | **08-java-jvm** | Master JVM internals - memory management, garbage collection |
-| 6 | **06-java-spring** | Master Spring Framework - Spring Boot, Spring MVC, Spring Da |
-| 7 | **04-java-concurrency** | Master Java concurrency - threads, ExecutorService, Completa |
-| 8 | **01-java-fundamentals** | Master Java fundamentals - syntax, data types, control flow, |
+| # | Agent | Purpose | Primary Skill |
+|---|-------|---------|---------------|
+| 1 | **01-java-fundamentals** | Java syntax, OOP, collections, streams | `java-fundamentals` |
+| 2 | **02-java-advanced** | Concurrency, JVM internals, performance | `java-concurrency` |
+| 3 | **03-java-spring** | Spring Boot, MVC, Security, Cloud | `java-spring-boot` |
+| 4 | **04-java-testing** | JUnit 5, Mockito, integration testing | `java-testing` |
+| 5 | **05-java-build-tools** | Maven, Gradle, CI/CD pipelines | `java-maven-gradle` |
+| 6 | **06-java-persistence** | JPA, Hibernate, query optimization | `java-jpa-hibernate` |
+| 7 | **07-java-microservices** | Spring Cloud, distributed systems | `java-microservices` |
+| 8 | **08-java-devops** | Docker, Kubernetes, monitoring | `java-docker` |
 
 ---
 
 ## 🛠️ Skills
 
-### Available Skills
+### 12 SASMP-Compliant Skills
 
-| Skill | Description | Invoke |
-|-------|-------------|--------|
-| `java-concurrency` | Master Java concurrency - threads, executors, CompletableFut | `Skill("java-development-assistant:java-concurrency")` |
-| `java-microservices` | Master Java microservices - patterns, communication, and clo | `Skill("java-development-assistant:java-microservices")` |
-| `java-spring-boot` | Master Spring Boot - REST APIs, data access, and production- | `Skill("java-development-assistant:java-spring-boot")` |
-| `java-streams` | Master Java Stream API - functional programming, pipelines,  | `Skill("java-development-assistant:java-streams")` |
-| `java-collections` | Master Java Collections - List, Set, Map, Queue implementati | `Skill("java-development-assistant:java-collections")` |
-| `java-oop` | Master Java OOP - classes, inheritance, polymorphism, interf | `Skill("java-development-assistant:java-oop")` |
-| `java-jvm` | Master JVM internals - memory, garbage collection, and perfo | `Skill("java-development-assistant:java-jvm")` |
-| `java-syntax` | Master Java syntax - data types, operators, control flow, an | `Skill("java-development-assistant:java-syntax")` |
-| `java-jakarta-ee` | Master Jakarta EE - enterprise Java, CDI, JPA, and JAX-RS | `Skill("java-development-assistant:java-jakarta-ee")` |
-| `java-junit` | Master JUnit 5 and Mockito - unit testing, mocking, and TDD | `Skill("java-development-assistant:java-junit")` |
-| ... | +2 more | See skills/ directory |
+| Skill | Description | Bond Type |
+|-------|-------------|-----------|
+| `java-fundamentals` | Core Java syntax, OOP, collections, streams | PRIMARY |
+| `java-concurrency` | Threads, executors, CompletableFuture, virtual threads | PRIMARY |
+| `java-spring-boot` | Spring Boot REST APIs, Security, Data, Actuator | PRIMARY |
+| `java-testing` | JUnit 5, Mockito, integration testing, TDD | PRIMARY |
+| `java-maven-gradle` | Build configuration, dependencies, CI/CD | PRIMARY |
+| `java-jpa-hibernate` | Entity design, queries, transactions, caching | PRIMARY |
+| `java-microservices` | Spring Cloud, service mesh, event-driven patterns | PRIMARY |
+| `java-docker` | Dockerfile optimization, JVM settings, security | PRIMARY |
+| `java-maven` | Maven POM, lifecycle, plugins | SECONDARY |
+| `java-gradle` | Gradle Kotlin DSL, build optimization | SECONDARY |
+| `java-performance` | JVM tuning, GC, profiling, benchmarking | SECONDARY |
+| `java-testing-advanced` | Testcontainers, contract testing, mutation testing | SECONDARY |
 
 ---
 
@@ -201,10 +206,11 @@ custom-plugin-java/
 
 | Field | Value |
 |-------|-------|
-| **Version** | 2.0.0 |
-| **Last Updated** | 2025-12-29 |
+| **Version** | 3.0.0 |
+| **Last Updated** | 2025-12-30 |
 | **Status** | Production Ready |
 | **SASMP** | v1.3.0 |
+| **EQHM** | Enabled |
 | **Agents** | 8 |
 | **Skills** | 12 |
 | **Commands** | 4 |
