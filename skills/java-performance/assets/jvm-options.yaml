@@ -1,0 +1,9 @@
+production_jvm_options:
+  memory:
+    - "-Xms2g"
+    - "-Xmx2g"
+  gc:
+    - "-XX:+UseG1GC"
+    - "-XX:MaxGCPauseMillis=200"
+  monitoring:
+    - "-XX:+HeapDumpOnOutOfMemoryError"

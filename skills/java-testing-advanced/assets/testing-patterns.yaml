@@ -1,0 +1,10 @@
+patterns:
+  unit_testing:
+    framework: JUnit 5
+    mocking: Mockito
+    assertions: AssertJ
+  integration:
+    framework: Spring Test
+    containers: Testcontainers
+  e2e:
+    framework: Selenium/Playwright

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "name": "java-development-assistant",
-  "version": "2.0.0",
-  "description": "Java development plugin with specialized agents for core Java, Spring, testing, and enterprise development",
+  "version": "2.1.0",
+  "description": "Comprehensive Java development plugin with 8 specialized agents and 12 Golden Format skills for core Java, Spring, testing, DevOps, and enterprise development",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -19,7 +19,9 @@
     "concurrency",
     "junit",
     "testing",
-    "microservices"
+    "microservices",
+    "docker",
+    "performance"
   ],
   "agents": [
     "./agents/01-java-fundamentals.md",
@@ -28,7 +30,8 @@
     "./agents/04-java-testing.md",
     "./agents/05-java-build-tools.md",
     "./agents/06-java-persistence.md",
-    "./agents/07-java-microservices.md"
+    "./agents/07-java-microservices.md",
+    "./agents/08-java-devops.md"
   ],
   "skills": [
     "./skills/java-fundamentals/SKILL.md",
@@ -37,7 +40,12 @@
     "./skills/java-concurrency/SKILL.md",
     "./skills/java-jpa-hibernate/SKILL.md",
     "./skills/java-maven-gradle/SKILL.md",
-    "./skills/java-microservices/SKILL.md"
+    "./skills/java-microservices/SKILL.md",
+    "./skills/java-maven/SKILL.md",
+    "./skills/java-gradle/SKILL.md",
+    "./skills/java-docker/SKILL.md",
+    "./skills/java-testing-advanced/SKILL.md",
+    "./skills/java-performance/SKILL.md"
   ],
   "commands": [
     "./commands/java-check.md",

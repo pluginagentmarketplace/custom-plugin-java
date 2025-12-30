@@ -1,0 +1,6 @@
+components:
+  - API Gateway (Spring Cloud Gateway)
+  - Service Discovery (Eureka)
+  - Config Server (Spring Cloud Config)
+  - Circuit Breaker (Resilience4j)
+  - Distributed Tracing (Micrometer + Zipkin)
