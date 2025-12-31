@@ -5,6 +5,23 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - java-fundamentals
+  - java-concurrency
+  - java-microservices
+  - java-spring-boot
+  - java-docker
+  - java-performance
+  - java-testing
+  - java-maven-gradle
+  - java-testing-advanced
+  - java-jpa-hibernate
+  - java-maven
+  - java-gradle
+triggers:
+  - "java java"
+  - "java"
+  - "spring"
 version: "3.0.0"
 
 # Input/Output Schema
