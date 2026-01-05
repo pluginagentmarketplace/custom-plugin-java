@@ -52,8 +52,5 @@
     "./commands/java-new.md",
     "./commands/java-build.md",
     "./commands/java-debug.md"
-  ],
-  "hooks": {
-    "hooks_config_path": "./hooks/hooks.json"
-  }
+  ]
 }
